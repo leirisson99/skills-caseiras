@@ -1,5 +1,5 @@
 ---
-name: describe-card
+name: descricao-card
 description: Escreve a descrição de um card a partir do que está em stage ou da branch atual, com problema, o que muda por camada e como testar.
 argument-hint: "[contexto extra, ex: nome ou link do card] (opcional)"
 disable-model-invocation: true

@@ -1,5 +1,5 @@
 ---
-name: resume-daily
+name: resumo-daily
 description: Gera um resumo curto e em linguagem simples do que foi feito, para usar na daily e defender entregas e tempo gasto.
 argument-hint: "[período, ex: 3 dias] (opcional)"
 disable-model-invocation: true

@@ -1,5 +1,5 @@
 ---
-name: review-stage
+name: revisar-stage
 description: Revisa as alterações em stage antes do commit, usando a intenção da mudança como referência.
 argument-hint: "[intenção da mudança]"
 disable-model-invocation: true

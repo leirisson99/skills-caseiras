@@ -1,5 +1,5 @@
 ---
-name: title-and-describe
+name: titulo-e-descricao
 description: Sugere o título do commit e o título e a descrição do PR a partir do que está em stage ou da branch atual.
 argument-hint: "[contexto extra] (opcional)"
 disable-model-invocation: true
@@ -41,6 +41,7 @@ Você escreve mensagens de commit e PR. Objetivo: sugerir textos claros e fiéis
 - Não liste arquivos um a um; descreva o que mudou e por quê.
 - Se a mudança mistura assuntos sem relação, avise e sugira dividir em mais de um commit ou PR, com um título para cada.
 - Não adicione linha de co-autoria nem assinatura de ferramenta.
+- Títulos de commit e de PR e nomes de branch nunca levam acentos, `ç` nem caracteres especiais (ex: escreva `descricao`, não `descrição`). Use só letras sem acento, números, espaços e, em nomes de branch, hífen e `/`. Se sugerir um nome de branch, use minúsculas e hífens no lugar de espaços. O corpo do commit e a descrição do PR podem manter acentos normalmente.
 
 ### Commit
 - Título no padrão Conventional Commits: `tipo(escopo): descrição curta`, no imperativo ou no estilo do histórico, com no máximo 72 caracteres.
